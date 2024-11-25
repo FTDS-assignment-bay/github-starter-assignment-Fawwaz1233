@@ -1,3 +1,28 @@
+# Cara Clone dan Push Repository ke Guthub dari Local
+
+## 1. Clone Repository
+
+Berikut Cara clone dari SSH:
+1. buka repository-nya
+2. Di bagian `<> Code` warna hijau, copy URL dari tab SSH
+3. Buka terminal di directory local dimana kalian akan clone repo
+4. Di terminal tulis `git clone <url yang di copy>`
+5. Akan terbuat folder hasil clone di directory-nya
+
+Setelah ada hasil clone, kita bekerja di folder repository tersebut.
+
+## 2. Add and Commit files
+Setelah ada perubahan file di folder repo yang ingin kita track perubahannya maka harus kita lakukan add dan commit caranya:
+1. Di terminal (pastikan directorynya sudah repository) cek status files dengan `git status`
+2. Jika ada perubahan dari file apapun akan diindikasikan dengan warna merah
+3. Untuk track perubahan lakukan `git add <nama file>` atau juka banyak bisa `git add .` untuk track semua perubahan pada semua file sekaligus.
+4. Kalau mau lihat status setelah di add harusnya warnanya hijau.
+5. Gunakan `git commit -m "pesan commit" untuk menandakan batch perubahan
+
+## 3. Push and Pull to github
+1. Setelah ada commit yang mau dimasukan ke github bisa lakukan `git push`
+2. Kalau kita menggunakan device yang berbeda dan ada clone di device masing-masing, sebelum mengerjakan apa-apa lakukan `git pull`
+
 # :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
